@@ -26,7 +26,6 @@ header {
     transform: translateZ(-1px) scale(2.1);
     min-height: 100%;
     z-index: -2;
-    opacity:.75
   }
   
   
@@ -111,7 +110,7 @@ header {
   }
   
   span{
-    color:rgb(7, 220, 78);
+    color:rgb(7, 220, 96);
   }
 span a{
   color:rgb(17, 237, 90);
