@@ -21,7 +21,7 @@ const Statewise = () => {
             
             <div className="container-fluid">
                 <div className="main-heading ">
-                    <h2 className="mb-1 text-center headline2 col-md-3 col-sm-12"> <strong className="font-weight-bold">USA</strong> Covid Tracking App! </h2>
+                    <h2 className="mb-1 text-center headline2 col-md-3 col-sm-12"> <strong className="font-weight-bold">USA</strong> Covid-19 Tracking App! </h2>
                      </div>
 
                      <div className="text-center mb-2"> 
