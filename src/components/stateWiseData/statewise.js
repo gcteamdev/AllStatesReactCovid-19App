@@ -25,7 +25,7 @@ const Statewise = () => {
                      </div>
 
                      <div className="text-center mb-2"> 
-                     <button className="bg-success btn btn-secondary col-md-2  col-sm-12 btn-lg text-white all-state-btn"type="button" onClick={getCovidData}>Get All States Info</button>
+                     <button className="bg-success btn btn-secondary col-md-3  col-sm-12 btn-lg text-white all-state-btn"type="button" onClick={getCovidData}>Click to get All States Info</button>
               
                      </div>
                 
