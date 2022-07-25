@@ -21,12 +21,12 @@ header {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     display: block;
-    background: url(https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) top center;
+    background: url(https://cdnph.upi.com/sv/ph/og/i/2051445022723/2015/1/14450266824318/v1.5/Study-Antioxidant-use-may-promote-spread-of-cancer.jpg) top center;
     background-size: cover;
     transform: translateZ(-1px) scale(2.1);
     min-height: 100%;
     z-index: -2;
-    opacity:.6
+    opacity:.75
   }
   
   
@@ -43,7 +43,7 @@ header {
   
   .section1 {
     background:transparent;
-    box-shadow: 0 0 20px #333;
+    box-shadow: 0 0 20px rgb(3, 45, 17);
     z-index: 1;
   }
   
@@ -103,7 +103,7 @@ header {
   .banner{
     overflow-x: hidden;
     overflow-y: scroll;
-    height:50vh;
+    height:68.5vh;
     perspective: 1px;
     transform-style: preserve-3d;
     font-size: 62.5%;
@@ -111,7 +111,7 @@ header {
   }
   
   span{
-    color:rgb(17, 237, 90);
+    color:rgb(7, 220, 78);
   }
 span a{
   color:rgb(17, 237, 90);
@@ -127,3 +127,13 @@ span a:hover{
   font-family: 'Saira Condensed', sans-serif;
   font-family: 'Teko', sans-serif;
 }
+.headline2{
+  margin:auto;
+  border-radius:5px;
+  text-shadow: 0px 8px 2px rgba(2, 43, 22, 0.4);
+}
+.all-state-btn{
+  box-shadow: rgb(119, 75, 40) 0px 10px 20px 3px;
+  font-size:xx-large;
+}
+

@@ -12,19 +12,24 @@ const Statewise = () => {
     }
 
     useEffect (() =>{
-        getCovidData();
+       // getCovidData();
     }, []);
 
 
     return (
         <>
             
-            <div className="container-fluid mt-5">
-                <div className="main-heading">
-                    <h2 className="mb-5 text-center"> <span className="font-weight-bold">USA</span> Covid Tracking App! </h2>
-                </div>
-                
+            <div className="container-fluid">
+                <div className="main-heading ">
+                    <h2 className="mb-1 text-center headline2 col-md-3 col-sm-12"> <strong className="font-weight-bold">USA</strong> Covid Tracking App! </h2>
+                     </div>
 
+                     <div className="text-center mb-2"> 
+                     <button className="bg-success btn btn-secondary col-md-2  col-sm-12 btn-lg text-white all-state-btn"type="button" onClick={getCovidData}>Get All States Info</button>
+              
+                     </div>
+                
+                
                 <div className="table-responsive">
                     <table className="table table-hover col-10 text-center mx-auto">
                         <thead className="thread-dark bg-dark text-light">
