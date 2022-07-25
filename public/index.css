@@ -102,7 +102,7 @@ header {
   .banner{
     overflow-x: hidden;
     overflow-y: scroll;
-    height:68.5vh;
+    height:65.5vh;
     perspective: 1px;
     transform-style: preserve-3d;
     font-size: 62.5%;
