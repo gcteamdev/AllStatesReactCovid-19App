@@ -41,7 +41,7 @@ header {
   }
   
   .section1 {
-    background:transparent;
+    background:rgba(111, 110, 110, 0.501);
     box-shadow: 0 0 20px rgb(3, 45, 17);
     z-index: 1;
   }
