@@ -8,124 +8,10 @@
 }
 
 
-header {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    transform-style: inherit;
-    z-index: -1;
-  }
-  
-  header::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    display: block;
-    background: url(https://wp.uthscsa.edu/coronavirus/wp-content/uploads/sites/150/2020/03/coronavirus-under-the-microscope-1-1024x576.jpg) top center;
-    background-size: cover;
-    transform: translateZ(-1px) scale(2.1);
-    min-height: 100%;
-    z-index: -2;
-  }
-  
-  
-  /*************************************************************
-    SECTIONS
-  **************************************************************/
-  section {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    position: relative;
-    transform-style: inherit;
-  }
-  
-  .section1 {
-    background:rgba(111, 110, 110, 0.501);
-    box-shadow: 0 0 20px rgb(3, 45, 17);
-    z-index: 1;
-  }
-  
-  .section2::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    display: block;
-    background: url(./6096658149f92728e32d427308cd99ed.jpg) top center;
-    background-size: cover;
-    transform: translateZ(-.5px) scale(1.6);
-    z-index: -1;
-  }
-  
-  /*************************************************************
-    HEADINGS
-  **************************************************************/
-  h1 {
-    font-size: 2rem;
-    text-align: center;
-    position: absolute;
-    padding: 1rem;
-    background: #fafafa;
-    box-shadow: 0 0 20px #333;
-    border-radius:10px;
-    top: 50%;
-    left: 50%;
-    transform: translateZ(-1px) scale(2) translate(-25%, -25%);
-  }
-  
-  .section1 h1 {
-    z-index: 3;
-    transform: translate(-50%, -50%);
-    box-shadow: none;
-    color:white;
-    border-radius:10px;
-    background-color:rgb(61, 60, 60);
-  }
-  
-  .section2 h1 {
-    transform: translateZ(-.3px) scale(1.3) translate(-39%, -39%);
-    z-index: 3;
-  }
-  
-  /*************************************************************
-    BASIC STYLES
-  **************************************************************/
-  *,
-  *::before,
-  *::after,
-  :root {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .banner{
-    overflow-x: hidden;
-    overflow-y: scroll;
-    height:65.5vh;
-    perspective: 1px;
-    transform-style: preserve-3d;
-    font-size: 62.5%;
+ 
 
-  }
   
-  span{
-    color:rgb(7, 220, 96);
-  }
-span a{
-  color:rgb(17, 237, 90);
-}
-span a:hover{
-  color:white;
-  text-decoration-color:rgb(17, 237, 90);
-}
 
-*{
-  font-family: 'DotGothic16', sans-serif;
-  font-family: 'Roboto Flex', sans-serif;
-  font-family: 'Saira Condensed', sans-serif;
-  font-family: 'Teko', sans-serif;
-}
 .headline2{
   margin:auto;
   border-radius:5px;
@@ -134,5 +20,8 @@ span a:hover{
 .all-state-btn{
   box-shadow: rgb(119, 75, 40) 0px 10px 20px 3px;
   font-size:xx-large;
+}
+footer{
+  margin-top:70vh!important;
 }
 

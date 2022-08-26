@@ -1,5 +1,6 @@
 import React,{ useState, useEffect } from "react";
 
+
 const Statewise = () => {
 
     const[data, setdata] = useState([]);
@@ -19,13 +20,11 @@ const Statewise = () => {
     return (
         <>
             
-            <div className="container-fluid">
-                <div className="main-heading ">
-                    <h2 className="mb-1 text-center headline2 col-md-3 col-sm-12"> <strong className="font-weight-bold">USA</strong> Covid-19 Tracking App! </h2>
-                     </div>
+            <div className="container-fluid bg-light">
+                
 
                      <div className="text-center mb-2"> 
-                     <button className="bg-success btn btn-secondary col-md-3  col-sm-12 btn-lg text-white all-state-btn"type="button" onClick={getCovidData}>Click to get All States Info</button>
+                     <button className="bg-info btn btn-secondary col-md-3  col-sm-12 btn-lg text-white all-state-btn mt-5"type="button" onClick={getCovidData}>Click to get All States Info</button>
               
                      </div>
                 
